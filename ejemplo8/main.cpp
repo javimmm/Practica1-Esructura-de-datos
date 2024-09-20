@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Function to return the smaller of two numbers
-int menor(int x, int y) // declaration and definition together
+int menor(int x, int y) 
 {
     return x < y ? x : y;
 }
 
-// Declaration of the function to find the smallest of three numbers
+
 int menorde3(int x, int y, int z);
 
 int main(int argc, char** argv)
@@ -19,7 +18,7 @@ int main(int argc, char** argv)
     return 0;
 }
 
-// Definition of the function to find the smallest of three numbers
+
 int menorde3(int x, int y, int z)
 {
     return menor(menor(x, y), z);
