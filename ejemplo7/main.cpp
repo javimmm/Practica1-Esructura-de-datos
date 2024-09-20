@@ -11,6 +11,6 @@ int main(int argc, char** argv)
         test = ((c >= '0') && (c <= '9'));
         if(test)
             cout << c << " pulsado.\n";
-    } while(c != 27); // 27 is the ASCII code for the ESC key
+    } while(c != 27);
     return 0;
 }
